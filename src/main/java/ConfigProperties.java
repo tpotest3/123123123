@@ -8,10 +8,9 @@ public class ConfigProperties {
 
     static {
         try {
-            fileIS = new FileInputStream("./src/test/resources/lab3.properties");
+            fileIS = new FileInputStream("src/main/resources/lab3.properties");
             properties = new Properties();
             properties.load(fileIS);
-
         } catch (IOException exception){
             exception.printStackTrace();
         } finally {

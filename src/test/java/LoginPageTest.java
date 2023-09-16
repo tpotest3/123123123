@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class LoginPageTest {
+public class LoginPageTest
+{
 
     List<LoginPage> loginPages;
     @BeforeEach
